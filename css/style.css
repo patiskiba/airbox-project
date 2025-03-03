@@ -4,6 +4,11 @@ header {
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: #262337;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bannerLeft {
@@ -11,7 +16,52 @@ header {
     flex-direction: row;
 }
 
+.airbox2 {
+    color: #646079;
+}
+
 .bannerRight {
     display: flex;
     flex-direction: row;
+    color: #646079;
+}
+
+.landingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #262337;
+    border-top:#646079 1px solid;
+    text-align: center;
+}
+
+.landingHeadings {
+    display: flex;
+    flex-direction: column;
+}
+
+.landingHeading2 {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.landingP {
+    width: 50%;
+    justify-content: center;
+    color: #646079;
+    
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.landingButton {
+    
+    padding: 10px;
+    background-color: #646079;
+    border-radius: 10px;
 }

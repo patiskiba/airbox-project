@@ -118,3 +118,17 @@ a {
     background: linear-gradient(180deg, rgba(179,175,209,1) 0%, rgba(100,96,121,1) 75%);
     border-radius: 5px;
 }
+
+.orangeSection {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-color: #F29B66;
+}
+
+.orangeCard {
+    font-weight: 500;
+}

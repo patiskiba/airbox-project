@@ -134,6 +134,10 @@ a {
 }
 
 .subscriptionSection {
+    background-color: #E8E8EA;
+}
+
+.subscriptionCard {
     width: 250px;
 }
 
@@ -148,6 +152,8 @@ a {
     font-size: 28px;
     font-weight: 600;
     margin: 0px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: #ffffff 2px solid;
     /* Gradient text */
     color: rgb(179,175,209);
     background-image: linear-gradient(180deg, rgba(179,175,209,1) 0%, rgba(100,96,121,1) 75%);
@@ -180,4 +186,29 @@ a {
     width: 24px;
     background-color: #aca9cb;
     z-index: 1;
+}
+
+.rowLight {
+    margin: 0px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color:#646079;
+    background-color: #ffffff;
+}
+
+.rowDark {
+    margin: 0px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color:#646079;
+    background-color: #cccccf;
+}
+
+.orangeButton {
+    margin: 0px;
+    
+    font-size: 18px;
+    background-color: #cb5b15;
 }

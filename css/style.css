@@ -145,7 +145,7 @@ a {
     position: relative;
     background-color:#aca9cb ;
     text-align: center;
-    
+    border-radius: 5px 5px 0px 0px;
 }
 
 .subscriptionTitle {
@@ -153,7 +153,7 @@ a {
     font-weight: 600;
     margin: 0px;
     padding: 10px;
-    border-radius: 5px 5px 0px 0px;
+    
     border-bottom: #ffffff 2px solid;
     /* Gradient text */
     color: rgb(179,175,209);

@@ -152,6 +152,7 @@ a {
     font-size: 28px;
     font-weight: 600;
     margin: 0px;
+    padding: 10px;
     border-radius: 5px 5px 0px 0px;
     border-bottom: #ffffff 2px solid;
     /* Gradient text */
@@ -168,6 +169,7 @@ a {
     font-size: 28px;
     font-weight: 600;
     margin: 0px;
+    padding: 10px;
     color: #ffffff;
     z-index: 2;
 }
@@ -189,26 +191,37 @@ a {
 }
 
 .rowLight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0px;
     height: 40px;
     font-size: 14px;
     font-weight: 700;
     color:#646079;
+    border: #646079 1px solid;
     background-color: #ffffff;
 }
 
 .rowDark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0px;
     height: 40px;
     font-size: 14px;
     font-weight: 700;
     color:#646079;
+    border-left: #646079 1px solid;
+    border-right: #646079 1px solid;
     background-color: #cccccf;
 }
 
 .orangeButton {
     margin: 0px;
-    
+    padding: 5px 15px;
+    color: #ffffff;
     font-size: 18px;
+    border-radius: 5px;
     background-color: #cb5b15;
 }

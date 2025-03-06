@@ -224,6 +224,58 @@ a {
     background-color: #cccccf;
 }
 
+/* .orangeButton {
+    margin: 0px;
+    padding: 5px 15px;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #cb5b15;
+} */
+
+.packageSection {
+    background-color: #262337;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+.packageItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:start;
+    
+}
+
+.packageItem h3 {
+
+    /* Gradient text */
+    color: rgb(179,175,209);
+    background-image: linear-gradient(180deg, rgba(179,175,209,1) 0%, rgba(100,96,121,1) 75%);
+    background-clip: text; 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+.packageItem ul li {
+    color: #cb5b15;
+}
+.packageItem ul li span {
+    color: #ffffff;
+}
+
+.packageItem p {
+    color: #aca9cb;
+}
+.packageItem a p{
+    color: #ffffff;
+}
+
 .orangeButton {
     margin: 0px;
     padding: 5px 15px;

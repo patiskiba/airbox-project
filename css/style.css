@@ -134,6 +134,13 @@ a {
 }
 
 .subscriptionSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 28px;
+    padding-bottom: 28px;
     background-color: #E8E8EA;
 }
 
